@@ -1,0 +1,107 @@
+#
+#echo acyc_neg bf
+#acyc_neg bf
+echo acyc_p2n bf
+acyc_p2n bf
+echo acyc_pos bf
+acyc_pos bf
+echo grid_phard bf
+grid_phard bf
+echo grid_slong bf
+grid_slong bf
+echo grid_ssquare bf
+grid_ssquare bf
+echo grid_ssquare_s bf
+grid_ssquare_s bf
+echo grid_swide bf
+grid_swide bf
+echo rand_1:4 bf
+rand_1:4 bf
+echo rand_4 bf
+rand_4 bf
+echo rand_len bf
+rand_len bf
+echo rand_p bf
+rand_p bf
+
+echo acyc_neg bfp
+acyc_neg bfp
+echo acyc_p2n bfp
+acyc_p2n bfp
+echo acyc_pos bfp
+acyc_pos bfp
+echo grid_nhard bfp
+grid_nhard bfp
+echo grid_phard bfp
+grid_phard bfp
+echo grid_slong bfp
+grid_slong bfp
+echo grid_ssquare bfp
+grid_ssquare bfp
+echo grid_ssquare_s bfp
+grid_ssquare_s bfp
+echo grid_swide bfp
+grid_swide bfp
+echo rand_1:4 bfp
+rand_1:4 bfp
+echo rand_4 bfp
+rand_4 bfp
+echo rand_len bfp
+rand_len bfp
+echo rand_p bfp
+rand_p bfp
+
+echo acyc_neg two_q
+acyc_neg two_q
+echo acyc_p2n two_q
+acyc_p2n two_q
+echo acyc_pos two_q
+acyc_pos two_q
+echo grid_nhard two_q
+grid_nhard two_q
+echo grid_phard two_q
+grid_phard two_q
+echo grid_slong two_q
+grid_slong two_q
+echo grid_ssquare two_q
+grid_ssquare two_q
+echo grid_ssquare_s two_q
+grid_ssquare_s two_q
+echo grid_swide two_q
+grid_swide two_q
+echo rand_1:4 two_q
+rand_1:4 two_q
+echo rand_4 two_q
+rand_4 two_q
+echo rand_len two_q
+rand_len two_q
+echo rand_p two_q
+rand_p two_q
+
+echo acyc_neg palt
+acyc_neg palt
+echo acyc_p2n palt
+acyc_p2n palt
+echo acyc_pos palt
+acyc_pos palt
+echo grid_nhard palt
+grid_nhard palt
+echo grid_phard palt
+grid_phard palt
+echo grid_slong palt
+grid_slong palt
+echo grid_ssquare palt
+grid_ssquare palt
+echo grid_ssquare_s palt
+grid_ssquare_s palt
+echo grid_swide palt
+grid_swide palt
+echo rand_1:4 palt
+rand_1:4 palt
+echo rand_4 palt
+rand_4 palt
+echo rand_len palt
+rand_len palt
+echo rand_p palt
+rand_p palt
+

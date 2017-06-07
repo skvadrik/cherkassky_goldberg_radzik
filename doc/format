@@ -1,0 +1,142 @@
+FILE FORMAT FOR SHORTEST PATHS PROBLEM.
+
+
+The format used to represent the shortest paths problems is obtained by
+augmenting the First DIMACS Implementation Challenge file format.
+
+
+Same as in  the DIMACS format:
+
+- all the files contain ASCII characters;
+
+- the format is case-sensitive;
+
+- input file contains several types of lines described below;
+
+- a line is terminated with the end-of-line character;
+
+- each line begins with a character identifying the line type;
+
+- each line consists of fields separated by at least one blank space;
+
+- most line type corresponds to the DIMACS types.
+
+Differences from DIMACS format:
+
+- we don't assume any suffix of input file although .sp is recommended.
+
+- no format for the solution file is specified, since it is 
+  application-dependent. Our programs produce the sum of node distances
+  and the performance data.
+
+LINE TYPES
+
+Each line begins with one-character line designator.
+
+1. Comment line [optional].
+
+  Line designator - "c".
+
+  Comment lines are ignored by the program while reading input. 
+  Comment lines can appear anywhere in the file.
+  Comments are useful for documenting a problem instance.
+
+  An example:
+
+  c This is comment line, as you see.
+
+2. Title line [optional].
+
+  Line designator - "t".
+
+  Title line contains one field - the name of the problem. There is one
+  or zero title lines per input file. The name of the problem is useful
+  to identify the problem in the output. Title line may appear anywhere
+  in the file. If there is no title line problem name is assumed to be
+  "unknown".
+
+  Format:
+
+  t NAME
+
+  where the NAME field contains an arbitrary character string without spaces.
+  No restriction is assumed on the name of the problem but implementations
+  may impose restrictions. Our implementations take first 30 characters from 
+  the name field and ignore the rest.
+
+  An example:
+
+  t rd_10001_60000_s_
+
+3. PROBLEM LINE.
+
+  Line designator - "p".
+
+  The problem line specifies the problem size. It contains three fields: 
+  problem specification, the number of nodes and the number of arcs. 
+  There is one problem line per file. It must appear before any node or 
+  arc lines.
+
+  Format:
+
+  p PROBLEM NODES ARCS
+
+  The PROBLEM field must contain two-character problem designator "sp"
+  that designates the problem as a shortest paths problem.
+
+  The NODES field contains a positive integer n, the number of nodes in 
+  the network.
+
+  The ARCS field contains a positive integer m, the number of arcs in 
+  the network.
+
+  The format place no restrictions on the values of n and m, but the programs
+  and the machine memory size may restrict these values.
+
+  An example:
+
+  p sp 10001 60000
+
+4. NODE LINE.
+
+  Line designator - "n".
+
+  The node line is intended for specifying the source - the root
+  of shortest paths tree. The node lines must appear after the problem 
+  line but before any arc lines. The file must contain at least one node
+  line. The current versions of our shortest path codes assume that the
+  source is unique.
+
+  Format:
+
+  n SOURCE
+
+  The SOURCE field gives a source id between 1 and n.
+
+  An example:
+
+  n 10001
+
+5. ARC LINE.
+
+  Line designator - "a".
+
+  An arc line corresponds to one arc of the network. Each arc line
+  specifies the arc's tail, head, and length. There must be exactly
+  m arc lines in the file. They must appear after the node line. 
+
+  Format:
+
+  a TAIL HEAD LENGTH
+
+  For the directed arc A(i,j) the TAIL field contains i and the HEAD
+  fields contains j, ids of the head and the tail nodes, which are integers
+  between 1 and n. The LENGTH field specifies the length of the arc and
+  must contain an integer between -2^31 and 2^31 - 1. Although no other 
+  restrictions are assumed on the arc lengths, additional limits may be placed
+  by the implementations to make sure that the distances are small enough not
+  to cause overflows.
+
+  An example:
+
+  a 10001 1 0

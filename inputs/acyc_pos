@@ -1,0 +1,32 @@
+#
+limit cputime 1200
+
+../bin/spacyc 8192 131072 561 -cl1 | ../bin/$1 > ../results/$1.$0
+../bin/spacyc 8192 131072 563 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 8192 131072 565 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 8192 131072 567 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 8192 131072 569 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spacyc 16384 262144 661 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 16384 262144 663 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 16384 262144 665 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 16384 262144 667 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 16384 262144 669 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spacyc 32768 524288 761 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 32768 524288 763 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 32768 524288 765 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 32768 524288 767 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 32768 524288 769 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spacyc 65536 1048576 861 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 65536 1048576 863 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 65536 1048576 865 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 65536 1048576 867 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 65536 1048576 869 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spacyc 131072 2097152 961 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 131072 2097152 963 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 131072 2097152 965 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 131072 2097152 967 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/spacyc 131072 2097152 969 -cl1 | ../bin/$1 >> ../results/$1.$0

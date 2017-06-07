@@ -1,0 +1,39 @@
+#
+limit cputime 1200
+
+../bin/spgrid 256   32 111 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 > ../results/$1.$0
+../bin/spgrid 256   32 113 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256   32 115 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256   32 117 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256   32 119 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 512   32 211 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512   32 213 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512   32 215 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512   32 217 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512   32 219 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 1024  32 311 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024  32 313 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024  32 315 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024  32 317 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024  32 319 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 2048  32 411 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048  32 413 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048  32 415 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048  32 417 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048  32 419 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 4096  32 511 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096  32 513 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096  32 515 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096  32 517 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096  32 519 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 8192  32 611 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192  32 613 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192  32 615 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192  32 617 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192  32 619 -cc -cl1 -cm1 -ax64 -im-10000 -il-1000 -ix5 -ih5 -in0 | ../bin/$1 >> ../results/$1.$0
+

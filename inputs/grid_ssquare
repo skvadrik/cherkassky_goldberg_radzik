@@ -1,0 +1,32 @@
+#
+limit cputime 1200
+
+../bin/spgrid 64 64 171 -cl10000 | ../bin/$1 > ../results/$1.$0
+../bin/spgrid 64 64 173 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 64 64 175 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 64 64 177 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 64 64 179 -cl10000 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spgrid 128 128 271 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 128 128 273 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 128 128 275 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 128 128 277 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 128 128 279 -cl10000 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spgrid 256 256 371 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256 256 373 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256 256 375 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256 256 377 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 256 256 379 -cl10000 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spgrid 512 512 471 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512 512 473 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512 512 475 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512 512 477 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512 512 479 -cl10000 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spgrid 1024 1024 571 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 1024 573 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 1024 575 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 1024 577 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 1024 579 -cl10000 | ../bin/$1 >> ../results/$1.$0

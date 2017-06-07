@@ -1,0 +1,51 @@
+#
+limit cputime 1200
+
+../bin/sprand 8192 32768 561 -cl1 | ../bin/$1 > ../results/$1.$0
+../bin/sprand 8192 32768 563 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 8192 32768 565 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 8192 32768 567 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 8192 32768 569 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 16384 65536 661 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 16384 65536 663 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 16384 65536 665 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 16384 65536 667 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 16384 65536 669 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 32768 131072 761 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 32768 131072 763 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 32768 131072 765 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 32768 131072 767 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 32768 131072 769 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 65536 262144 861 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 65536 262144 863 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 65536 262144 865 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 65536 262144 867 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 65536 262144 869 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 131072 524288 961 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 131072 524288 963 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 131072 524288 965 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 131072 524288 967 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 131072 524288 969 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 262144 1048576 361 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 262144 1048576 363 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 262144 1048576 365 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 262144 1048576 367 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 262144 1048576 369 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 524288 2097152 461 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 524288 2097152 463 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 524288 2097152 465 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 524288 2097152 467 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 524288 2097152 469 -cl1 | ../bin/$1 >> ../results/$1.$0
+
+../bin/sprand 1048576 4194304 261 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 1048576 4194304 263 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 1048576 4194304 265 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 1048576 4194304 267 -cl1 | ../bin/$1 >> ../results/$1.$0
+../bin/sprand 1048576 4194304 269 -cl1 | ../bin/$1 >> ../results/$1.$0
+

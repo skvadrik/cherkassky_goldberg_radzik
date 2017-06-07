@@ -1,0 +1,47 @@
+
+SPLIB contains codes, generators, and generator inputs for shortest
+paths algorithms. For a detailed description, see
+"Shortest Paths Algorithms: Theory and Experimental Evaluation,"
+by B.V. Cherkassky, A.V. Goldberg, and T. Radzik, Math Programming,
+Vol. 73, pages 129--174, 1996.
+
+The programs and scripts are designed to run under BSD UNIX.
+All programs read from the standard input and write to the standard
+output. Run "make" to compile the programs and generators.
+File list lists the programs produced my "make".
+
+The following subdirectories are used:
+
+  "src": contains source code for the shortest paths programs and 
+         generators;
+  "inputs": contains generator inputs and a test file "test.sp";
+  "bin": is used for compiled binaries;
+  "results": is used to store experimental results;
+  "doc": contains documentation (see below).
+
+The "doc" directory contains the following files.
+
+  "format": the shortest paths problem format;
+  "version": SPLIB version information;
+  "spgrid", "sprand", "scacyc": descriptions of the corresponding 
+                                generators.
+
+To test a shortest path code "foo" on a problem class "xyz", first 
+make sure that the executable "foo" is in the "bin" directory and 
+the cshell script "xyz" is in the "inputs" directory. Then run "xyz foo" 
+in the "inputs" directory. The results of the experiment are stored 
+in the file "results/foo.xyz".
+
+If different directory structure is desired, "makefile" and scripts
+in the "inputs" directory should be edited to achieve the desired result.
+Also, "makefile" can be modified to use different C compiler or 
+different compiler options. Additional scripts can be created to 
+facilitate testing or to create new problem families.
+
+SPLIB was developed by Boris Cherkassky (cher@ch.comrel.msk.su),
+Andrew Goldberg (goldberg@cs.stanford.edu), and Tomasz Radzik
+(radzik@cs.cornell.edu).
+
+The programs are available on "as is" basis. They are not guaranteed to
+be free of bugs, and the authors assume no responsibility for any
+potential problems. 

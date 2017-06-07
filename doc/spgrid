@@ -1,0 +1,237 @@
+
+SPGRID - grid network generator for shortest paths problem.
+
+  SPGRID generates a network with grid skeleton. In simplest cases
+  all the arcs belong to grid. However, for more complicated networks 
+  there are additional arcs.
+
+USAGE
+
+  sprand  X  Y  seed  [ optional parameters ]
+
+  X     - horizontal size of grid;
+  Y     - vertical size of grid;
+  seed  - an odd positive number for initializing the random number 
+          generator.
+
+  First three parameters are positional. All additional parameters 
+  begin with "-".
+
+  Every time the generator is invoked with identical parameters and 
+  parameter values, it generates identical networks.
+
+
+HELP OPTIONS
+
+  spgrid -h
+
+  This invocation of SPGRID prints short help.
+
+
+  spgrid -hh
+
+  This invocation of SPGRID prints long help.
+
+
+THE SOURCE 
+
+  Usually, the source node id is X*Y+1. The only case it is not true 
+  is if the network has an artificial source (see below). Arcs from 
+  the source go to all the nodes of first vertical layer.
+
+
+CONNECTING ARCS WITHIN ONE LAYER
+
+  From now on, when we say layer we mean vertical layer. All vertical
+  layers are of the same type. By default the doubly connected cycle 
+  is generated. It contains 2Y arcs.  Let i1, ... ,iY denote the nodes 
+  in a layer. By default, arcs (i1,i2), (i2,i1), ... , (iY, i1), (i1, iY)
+  are generated. The length of arcs in the cycle is uniformly distributed 
+  between <connecting-lower-bound> and <connecting-upper-bound>. One can 
+  change the type of connecting graph to a single cycle or a path.
+
+  -cl<connecting-upper-bound> - the upper bound on connecting arc length.
+  -cm<connecting-lower-bound> - the lower bound on connecting arc length.
+
+  The default value of <connecting-lower-bound> is 0.
+  The default value of <connecting-upper-bound> is 100.
+  Negative length arcs in layers may cause negative length cycles inside
+  these layers.
+
+  -c<connecting-type> - one letter "c", "d" or "p" - the type of
+  connecting graph.
+
+  c - single cycle - (i1, i2), (i2, i3), ... , (iY, i1).
+  d - double cycle - described above.
+  p - connecting path - (i1, i2), (i2, i3), ... , (iY-1, iY).
+
+  The default type of the connecting graph is double cycle.
+
+
+ADDITIONAL ARCS WITHIN A LAYER
+
+  One can have additional random arcs within a layer. Their tails
+  and heads are chosen at random (within the layer). The default is
+  no additional arcs. Additional arcs may make the problem harder.
+
+  -ax<addinional-arcs> - the number of additional arcs.
+  -al<upper-bound> - the upper bound on addinional arc length.
+  -am<lower-bound> - the lower bound on additional arc length.
+
+  The default value of <additional-arcs> is 0.
+  The default value of <upper-bound> is 10000.
+  The default value of <lower-bound> is 0.
+
+  Both the upper bound and lower bound must be integers between 
+  -2^31 and 2^31-1. Setting these bounds too high may cause overflow
+  of distance labels in shortest paths codes.
+
+  If <upper-bound> is less than <lower-bound> then SPGRID swaps these 
+  values. 
+
+
+INTER-LAYER ARCS
+
+  Inter-layer arcs go from a layer to a higher-numbered layer.  By
+  default, the head node has the same position in its layer as the tail
+  node. If the shuffle option is on, however, the position of the head
+  node within its layer is chosen at random. The difference in the
+  layer number of the head and the tail node is determined by the <step>
+  parameter. The length of an inter-layer arc is chosen uniformly at
+  random from the interval [<lower-bound>, <upper-bound>].  The length
+  may be changed using <linear-multiplier> and <square-multiplier>.  The
+  number of the inter-layer arcs is determined by the <no-arcs>
+  parameter.
+
+  -il<upper-bound> - an integer.
+  -im<lower-bound> - an integer.
+
+  If <upper-bound> is less than <lower-bound> then SPGRID swaps these 
+  values. The default value of <upper-bound> is 10000.
+  The default value of <lower-bound> is 1000.
+
+  -ip - shuffle inter-layer arcs.
+  -ix<no-arcs> - a positive integer.
+  -ih<step>    - a positive integer.
+
+  The default is not to shuffle the arcs.
+  The default <no-arcs> is 1.
+  The default <step> is 1.
+
+  If k = <no-arcs> and h = <step>, then SPGRID generates inter-layer
+  arcs from a node (x,y), where x and y denote the layer of the node and
+  the position of the node within the layer, to the following nodes:
+  (x+1,y1), (x+1+h,y2), ..., (x+1+(k-1)*h,yk).  All y1, y2, ..., yk
+  either are equal to y, or, if option -ip is present, are chosen at
+  random.
+
+  Linear and square multipliers can be used to produce problems which 
+  are harder for some algorithms. 
+
+  -in<linear-multiplier> - a real number.
+
+  If <linear-multiplier> is not zero then for every arc from node
+  (x1,y1) to node (x2,y2) with length l SPGRID adds
+  l*<linear-multiplier>*|x2-x1| to the length.
+
+  -is<square-multiplier> - a real number.
+
+  If <square-multiplier> is not zero then for every arc from node 
+  (x1,y1) to node (x2,y2) with length l SPGRID adds
+  l*<square-multiplier>*|x2-x1|^2 to the length.
+
+  Setting the multiplier values too big may cause overflows.
+
+
+NODE POTENTIALS
+
+  A simple way to generate a problem with negative arc lengths but 
+  without a negative cycle is to generate potentials. Potential of 
+  a node i is an integer P(i). If SPGRID generates a problem with 
+  potentials, it modifies the length of arc (i,j) as follows:
+
+  l(i,j) = l(i,j) + P(i) - P(j)
+
+  The values of potentials are distributed uniformly between the 
+  <lower-potential-bound> and the <upper-potential-bound>. These 
+  values can be modified with <linear-potential-multiplier> and
+  <square-potential-multiplier>. 
+
+  -p - generate problem with default values of potential parameters.
+  -pl<upper-potential-bound> - an integer.
+  -pm<lower-potential-bound> - an integer.
+
+  The default value of <upper-potential-bound> is <upper-bound> an 
+  upper bound on arc length.
+  The default value of <lower-potential-bound> is <lower-bound> a 
+  lower bound on arc length.
+
+  -pn<linear-potential-multiplier> - an arbitrary real number.
+  -ps<square-potential-multiplier> - an arbitrary real number.
+
+  The default value of <linear-potential-multiplier> and
+  <square-potential-multiplier> is zero.
+
+  If linear multiplier is not zero then SPGRID adds
+  <linear-potential-multiplier>*i to the potential P(i) of every node i.
+
+  If square multiplier is not zero then SPGRID adds
+  <square-potential-multiplier>*(i^2) to the potential P(i) of every 
+  node.
+
+  If two problems differ only in potential parameter values, the
+  geometry of the networks is the same, and the lengths differ only
+  by the potential transformation.
+
+
+ARTIFICIAL SOURCE
+
+  Adding an artificial source and artificial arcs to a network is a
+  standard technique used in reductions. It is quite surprising that 
+  when the artificial source is added, the problem becomes much harder 
+  for some algorithms.
+
+  -s - generate artificial source and artificial arcs with default 
+       lengths. 
+
+  The artificial source id is n+1. Artificial arcs connect the 
+  artificial source to all other node in the network. Hence, the number
+  of nodes in network with artificial source is n+1 and the number of 
+  arcs is m+n. The length of the arc from the artificial source to the 
+  real source is 0. The lengths of other artificial arcs are uniformly
+  distributed between <artificial-lower-bound> and  
+  <artificial-upper-bound> and are very long by default.
+
+  -sl<artificial-upper-bound> - an integer.
+  -sm<artificial-lower-bound> - an integer.
+
+  By default, the <artificial-upper-bound> and
+  <artificial-lower-bound> are 10^8.
+
+
+OUTPUT
+
+  The output format is described in the "format" file. 
+
+  The problem name includes generator identifier, number of layers, 
+  number of nodes in one layer, seed and possibly some additional 
+  information.
+
+  If any parameters describing the connecting arcs within one layer are
+  used, then the name of the problem contains additional letter "c".  If
+  any parameters describing the additional arcs within one layer are
+  used, then the name of the problem contains additional letter "a".
+  Options on inter-layer arcs force letter "i", on artificial source -
+  "s", on potentials - "p". For example, name of the problem with no
+  optional parameters looks like this: gr_10x10_871_. If all classes of
+  optional parameters are used, then the name is gr_10x10_871_caisp. Any
+  subset of additional letters may appear in the problem name.
+
+  If no optional parameters are used, the problem name gives you full
+  information about the problem. But if additional parameters are used,
+  the name does not give the full information. In this case the full
+  description is given by the comment lines at the beginning of the 
+  file.
+
+
+

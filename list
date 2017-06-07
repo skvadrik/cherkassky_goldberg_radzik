@@ -1,0 +1,26 @@
+
+GENERATORS
+
+  sprand: SPRAND generator.
+  spgrid: SPGRID generator.
+  spacyc: SPACYC generator.
+
+SHORTEST PATHS CODES
+
+  acc:     special-purpose algorithm for acyclic networks.
+  bf:      Bellman-Ford-Moore algorithm.
+  bfp:     Bellman-Ford-Moore algorithm with parent-checking.
+  dikb:    Dijkstra's implementation using buckets.
+  dikba:   Dijkstra's implementation using approximate buckets.
+  dikbd:   Dijkstra's implementation using two-level buckets.
+  dikbm:   Dijkstra's implementation using buckets and overflow bag.
+  dikf:    Dijkstra's implementation using Fibonacci heap.
+  dikh:    Dijkstra's implementation using k-ary heap.
+  dikq:    Dijkstra's implementation using linear search for minimum.
+  dikr:    Dijkstra's implementation using R-heap.
+  gor:     Goldberg-Radzik algorithm.
+  gor1:    Goldberg-Radzik algorithm with distance updates during DFS.
+  pape:    Pape-Levit algorithm.
+  stack:   implementation using stack ordering of labeled node processing.
+  thresh:  threshold algorithm.
+  two_q:   two queue (Pallottino's) algorithm.

@@ -1,0 +1,33 @@
+#
+limit cputime 1200
+
+../bin/sprand 131072 524288 961 -lm1 -ll1 -cl1 | ../bin/$1 > ../results/$1.$0
+../bin/sprand 131072 524288 963 -lm1 -ll1 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 965 -lm1 -ll1 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 967 -lm1 -ll1 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 969 -lm1 -ll1 -cl1 | ../bin/$1 >>../results/$1.$0
+
+../bin/sprand 131072 524288 961 -ll10 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 963 -ll10 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 965 -ll10 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 967 -ll10 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 969 -ll10 -cl1 | ../bin/$1 >>../results/$1.$0
+
+../bin/sprand 131072 524288 961 -ll100 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 963 -ll100 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 965 -ll100 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 967 -ll100 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 969 -ll100 -cl1 | ../bin/$1 >>../results/$1.$0
+
+../bin/sprand 131072 524288 961 -ll10000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 963 -ll10000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 965 -ll10000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 967 -ll10000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 969 -ll10000 -cl1 | ../bin/$1 >>../results/$1.$0
+
+../bin/sprand 131072 524288 961 -ll1000000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 963 -ll1000000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 965 -ll1000000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 967 -ll1000000 -cl1 | ../bin/$1 >>../results/$1.$0
+../bin/sprand 131072 524288 969 -ll1000000 -cl1 | ../bin/$1 >>../results/$1.$0
+

@@ -1,0 +1,44 @@
+#
+limit cputime 1200
+	      	       
+../bin/spgrid 512  16 281 -cl10000 | ../bin/$1 > ../results/$1.$0
+../bin/spgrid 512  16 283 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512  16 285 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512  16 287 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 512  16 289 -cl10000 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 1024 16 381 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 16 383 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 16 385 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 16 387 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 1024 16 389 -cl10000 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 2048 16 481 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048 16 483 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048 16 485 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048 16 487 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 2048 16 489 -cl10000 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 4096 16 581 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096 16 583 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096 16 585 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096 16 587 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 4096 16 589 -cl10000 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 8192 16 681 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192 16 683 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192 16 685 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192 16 687 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 8192 16 689 -cl10000 | ../bin/$1 >> ../results/$1.$0
+	      	       
+../bin/spgrid 16384 16 781 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 16384 16 783 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 16384 16 785 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 16384 16 787 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 16384 16 789 -cl10000 | ../bin/$1 >> ../results/$1.$0
+
+../bin/spgrid 32768 16 181 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 32768 16 183 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 32768 16 185 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 32768 16 187 -cl10000 | ../bin/$1 >> ../results/$1.$0
+../bin/spgrid 32768 16 189 -cl10000 | ../bin/$1 >> ../results/$1.$0

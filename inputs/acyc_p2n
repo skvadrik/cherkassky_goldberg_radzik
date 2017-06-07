@@ -1,0 +1,50 @@
+#
+limit cputime 1200
+
+../bin/spacyc 16384 262144 461 -lm0 -ll10000 | ../bin/$1 > ../results/$1.$0
+../bin/spacyc 16384 262144 463 -lm0 -ll10000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 465 -lm0 -ll10000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 467 -lm0 -ll10000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 469 -lm0 -ll10000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 761 -lm-1000 -ll9000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 763 -lm-1000 -ll9000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 765 -lm-1000 -ll9000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 767 -lm-1000 -ll9000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 769 -lm-1000 -ll9000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 861 -lm-2000 -ll8000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 863 -lm-2000 -ll8000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 865 -lm-2000 -ll8000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 867 -lm-2000 -ll8000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 869 -lm-2000 -ll8000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 961 -lm-3000 -ll7000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 963 -lm-3000 -ll7000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 965 -lm-3000 -ll7000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 967 -lm-3000 -ll7000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 969 -lm-3000 -ll7000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 261 -lm-4000 -ll6000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 263 -lm-4000 -ll6000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 265 -lm-4000 -ll6000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 267 -lm-4000 -ll6000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 269 -lm-4000 -ll6000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 461 -lm-5000 -ll5000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 463 -lm-5000 -ll5000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 465 -lm-5000 -ll5000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 467 -lm-5000 -ll5000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 469 -lm-5000 -ll5000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 661 -lm-6000 -ll4000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 663 -lm-6000 -ll4000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 665 -lm-6000 -ll4000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 667 -lm-6000 -ll4000 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 669 -lm-6000 -ll4000 | ../bin/$1 >>../results/$1.$0
+
+../bin/spacyc 16384 262144 761 -lm-10000 -ll0 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 763 -lm-10000 -ll0 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 765 -lm-10000 -ll0 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 767 -lm-10000 -ll0 | ../bin/$1 >>../results/$1.$0
+../bin/spacyc 16384 262144 769 -lm-10000 -ll0 | ../bin/$1 >>../results/$1.$0
