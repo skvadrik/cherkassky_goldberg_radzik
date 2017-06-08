@@ -22,7 +22,7 @@ bin/sprand: src/sprand.c src/random.c
 # shortest paths programs
 progs: bin/acc bin/bf bin/bfp bin/dikb bin/dikba bin/dikbd bin/dikbm bin/dikh\
 bin/dikr bin/dikf bin/dikq bin/gor bin/gor1 bin/pape bin/stack bin/thresh bin/two_q\
-bin/lau bin/lau1
+bin/lau bin/lau1 bin/gor1a
 
 bin/acc: src/acc.c src/acc_run.c src/types_gor.h src/parser_dh.c src/timer.c 
 	$(CCOMP) $(CFLAGS) -o bin/acc src/acc_run.c
@@ -80,3 +80,6 @@ bin/lau: src/lau.c src/lau_run.c src/types_lau.h src/lau_deque.h src/parser_dh.c
 
 bin/lau1: src/lau1.c src/lau1_run.c src/types_lau.h src/parser_dh.c src/timer.c src/lau_indegree.c
 	$(CCOMP) $(CFLAGS) -o bin/lau1 src/lau1_run.c src/lau_indegree.c
+
+bin/gor1a: src/gor1a.c src/gor1a_run.c src/types_gor.h src/parser_dh.c src/timer.c
+	$(CCOMP) $(CFLAGS) -o bin/gor1a src/gor1a_run.c

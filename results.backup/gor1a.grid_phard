@@ -1,0 +1,270 @@
+
+New topological sort -> problem name: gr_256x32_111_cai
+
+Nodes: 8193    Arcs: 63808  cc: 0
+Number of scans: 97040
+Sum of distances: 1376679660
+
+Running time of SP computation: 0.00
+
+
+New topological sort -> problem name: gr_256x32_113_cai
+
+Nodes: 8193    Arcs: 63808  cc: 0
+Number of scans: 88662
+Sum of distances: 1332467386
+
+Running time of SP computation: 0.00
+
+
+New topological sort -> problem name: gr_256x32_115_cai
+
+Nodes: 8193    Arcs: 63808  cc: 0
+Number of scans: 97706
+Sum of distances: 1331467658
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_256x32_117_cai
+
+Nodes: 8193    Arcs: 63808  cc: 0
+Number of scans: 87372
+Sum of distances: 1323432343
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_256x32_119_cai
+
+Nodes: 8193    Arcs: 63808  cc: 0
+Number of scans: 109958
+Sum of distances: 1343558815
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_512x32_211_cai
+
+Nodes: 16385    Arcs: 129344  cc: 0
+Number of scans: 205694
+Sum of distances: 5487753271
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_512x32_213_cai
+
+Nodes: 16385    Arcs: 129344  cc: 0
+Number of scans: 226028
+Sum of distances: 5403627386
+
+Running time of SP computation: 0.03
+
+
+New topological sort -> problem name: gr_512x32_215_cai
+
+Nodes: 16385    Arcs: 129344  cc: 0
+Number of scans: 193942
+Sum of distances: 5382621748
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_512x32_217_cai
+
+Nodes: 16385    Arcs: 129344  cc: 0
+Number of scans: 217282
+Sum of distances: 5367839030
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_512x32_219_cai
+
+Nodes: 16385    Arcs: 129344  cc: 0
+Number of scans: 185660
+Sum of distances: 5446440056
+
+Running time of SP computation: 0.02
+
+
+New topological sort -> problem name: gr_1024x32_311_cai
+
+Nodes: 32769    Arcs: 260416  cc: 0
+Number of scans: 389560
+Sum of distances: 21591797411
+
+Running time of SP computation: 0.05
+
+
+New topological sort -> problem name: gr_1024x32_313_cai
+
+Nodes: 32769    Arcs: 260416  cc: 0
+Number of scans: 453752
+Sum of distances: 21379970211
+
+Running time of SP computation: 0.05
+
+
+New topological sort -> problem name: gr_1024x32_315_cai
+
+Nodes: 32769    Arcs: 260416  cc: 0
+Number of scans: 454946
+Sum of distances: 21451357539
+
+Running time of SP computation: 0.05
+
+
+New topological sort -> problem name: gr_1024x32_317_cai
+
+Nodes: 32769    Arcs: 260416  cc: 0
+Number of scans: 452968
+Sum of distances: 21301568350
+
+Running time of SP computation: 0.07
+
+
+New topological sort -> problem name: gr_1024x32_319_cai
+
+Nodes: 32769    Arcs: 260416  cc: 0
+Number of scans: 394814
+Sum of distances: 21369395258
+
+Running time of SP computation: 0.05
+
+
+New topological sort -> problem name: gr_2048x32_411_cai
+
+Nodes: 65537    Arcs: 522560  cc: 0
+Number of scans: 901162
+Sum of distances: 86342641370
+
+Running time of SP computation: 0.13
+
+
+New topological sort -> problem name: gr_2048x32_413_cai
+
+Nodes: 65537    Arcs: 522560  cc: 0
+Number of scans: 891776
+Sum of distances: 85344335856
+
+Running time of SP computation: 0.13
+
+
+New topological sort -> problem name: gr_2048x32_415_cai
+
+Nodes: 65537    Arcs: 522560  cc: 0
+Number of scans: 889512
+Sum of distances: 85629859017
+
+Running time of SP computation: 0.13
+
+
+New topological sort -> problem name: gr_2048x32_417_cai
+
+Nodes: 65537    Arcs: 522560  cc: 0
+Number of scans: 1009010
+Sum of distances: 85449254429
+
+Running time of SP computation: 0.13
+
+
+New topological sort -> problem name: gr_2048x32_419_cai
+
+Nodes: 65537    Arcs: 522560  cc: 0
+Number of scans: 901534
+Sum of distances: 86480084125
+
+Running time of SP computation: 0.13
+
+
+New topological sort -> problem name: gr_4096x32_511_cai
+
+Nodes: 131073    Arcs: 1046848  cc: 0
+Number of scans: 2006446
+Sum of distances: 343445483585
+
+Running time of SP computation: 0.28
+
+
+New topological sort -> problem name: gr_4096x32_513_cai
+
+Nodes: 131073    Arcs: 1046848  cc: 0
+Number of scans: 1822686
+Sum of distances: 343886624294
+
+Running time of SP computation: 0.28
+
+
+New topological sort -> problem name: gr_4096x32_515_cai
+
+Nodes: 131073    Arcs: 1046848  cc: 0
+Number of scans: 2065432
+Sum of distances: 344830164212
+
+Running time of SP computation: 0.32
+
+
+New topological sort -> problem name: gr_4096x32_517_cai
+
+Nodes: 131073    Arcs: 1046848  cc: 0
+Number of scans: 2023214
+Sum of distances: 341840061978
+
+Running time of SP computation: 0.28
+
+
+New topological sort -> problem name: gr_4096x32_519_cai
+
+Nodes: 131073    Arcs: 1046848  cc: 0
+Number of scans: 1802846
+Sum of distances: 343832186752
+
+Running time of SP computation: 0.27
+
+
+New topological sort -> problem name: gr_8192x32_611_cai
+
+Nodes: 262145    Arcs: 2095424  cc: 0
+Number of scans: 3865714
+Sum of distances: 1376752547637
+
+Running time of SP computation: 0.57
+
+
+New topological sort -> problem name: gr_8192x32_613_cai
+
+Nodes: 262145    Arcs: 2095424  cc: 0
+Number of scans: 4071582
+Sum of distances: 1376837974935
+
+Running time of SP computation: 0.60
+
+
+New topological sort -> problem name: gr_8192x32_615_cai
+
+Nodes: 262145    Arcs: 2095424  cc: 0
+Number of scans: 3955898
+Sum of distances: 1380980269213
+
+Running time of SP computation: 0.58
+
+
+New topological sort -> problem name: gr_8192x32_617_cai
+
+Nodes: 262145    Arcs: 2095424  cc: 0
+Number of scans: 4072918
+Sum of distances: 1376545951973
+
+Running time of SP computation: 0.62
+
+
+New topological sort -> problem name: gr_8192x32_619_cai
+
+Nodes: 262145    Arcs: 2095424  cc: 0
+Number of scans: 4003532
+Sum of distances: 1381230423906
+
+Running time of SP computation: 0.60
+

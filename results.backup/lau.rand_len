@@ -1,0 +1,225 @@
+
+Laurikari -> problem name: rd_131072_524288_961_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 142261
+Sum of distances: 1144517
+
+Running time of SP computation: 0.12
+
+
+Laurikari -> problem name: rd_131072_524288_963_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 140536
+Sum of distances: 1067089
+
+Running time of SP computation: 0.13
+
+
+Laurikari -> problem name: rd_131072_524288_965_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 146087
+Sum of distances: 1195331
+
+Running time of SP computation: 0.13
+
+
+Laurikari -> problem name: rd_131072_524288_967_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 139003
+Sum of distances: 1170224
+
+Running time of SP computation: 0.15
+
+
+Laurikari -> problem name: rd_131072_524288_969_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 141160
+Sum of distances: 1192956
+
+Running time of SP computation: 0.12
+
+
+Laurikari -> problem name: rd_131072_524288_961_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 497869
+Sum of distances: 2065593
+
+Running time of SP computation: 0.28
+
+
+Laurikari -> problem name: rd_131072_524288_963_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 497028
+Sum of distances: 2317544
+
+Running time of SP computation: 0.27
+
+
+Laurikari -> problem name: rd_131072_524288_965_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 594089
+Sum of distances: 2247296
+
+Running time of SP computation: 0.35
+
+
+Laurikari -> problem name: rd_131072_524288_967_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 528745
+Sum of distances: 2244721
+
+Running time of SP computation: 0.33
+
+
+Laurikari -> problem name: rd_131072_524288_969_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 494707
+Sum of distances: 2288618
+
+Running time of SP computation: 0.30
+
+
+Laurikari -> problem name: rd_131072_524288_961_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 1058703
+Sum of distances: 7188404
+
+Running time of SP computation: 0.52
+
+
+Laurikari -> problem name: rd_131072_524288_963_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 1091438
+Sum of distances: 7614412
+
+Running time of SP computation: 0.53
+
+
+Laurikari -> problem name: rd_131072_524288_965_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 1134605
+Sum of distances: 7758817
+
+Running time of SP computation: 0.50
+
+
+Laurikari -> problem name: rd_131072_524288_967_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 1109140
+Sum of distances: 7435038
+
+Running time of SP computation: 0.60
+
+
+Laurikari -> problem name: rd_131072_524288_969_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 1064888
+Sum of distances: 8194034
+
+Running time of SP computation: 0.50
+
+
+Laurikari -> problem name: rd_131072_524288_961_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 2315082
+Sum of distances: 58778073
+
+Running time of SP computation: 1.00
+
+
+Laurikari -> problem name: rd_131072_524288_963_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 2566430
+Sum of distances: 59031006
+
+Running time of SP computation: 1.08
+
+
+Laurikari -> problem name: rd_131072_524288_965_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 2469840
+Sum of distances: 54913132
+
+Running time of SP computation: 1.03
+
+
+Laurikari -> problem name: rd_131072_524288_967_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 2409541
+Sum of distances: 61545397
+
+Running time of SP computation: 1.10
+
+
+Laurikari -> problem name: rd_131072_524288_969_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 2557813
+Sum of distances: 66920392
+
+Running time of SP computation: 0.98
+
+
+Laurikari -> problem name: rd_131072_524288_961_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 3543484
+Sum of distances: 487409958
+
+Running time of SP computation: 1.25
+
+
+Laurikari -> problem name: rd_131072_524288_963_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 3701491
+Sum of distances: 400408604
+
+Running time of SP computation: 1.38
+
+
+Laurikari -> problem name: rd_131072_524288_965_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 3621304
+Sum of distances: 415108306
+
+Running time of SP computation: 1.33
+
+
+Laurikari -> problem name: rd_131072_524288_967_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 3697499
+Sum of distances: 454792379
+
+Running time of SP computation: 1.48
+
+
+Laurikari -> problem name: rd_131072_524288_969_lc
+
+Nodes: 131072    Arcs: 524288
+Number of scans: 3928405
+Sum of distances: 497566648
+
+Running time of SP computation: 1.53
+

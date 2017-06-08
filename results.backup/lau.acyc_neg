@@ -1,0 +1,225 @@
+
+Laurikari -> problem name: ac_8192_131072_561_lc
+
+Nodes: 8192    Arcs: 131072
+Number of scans: 3241998
+Sum of distances: -9921510130
+
+Running time of SP computation: 0.62
+
+
+Laurikari -> problem name: ac_8192_131072_563_lc
+
+Nodes: 8192    Arcs: 131072
+Number of scans: 3403233
+Sum of distances: -10137936625
+
+Running time of SP computation: 0.67
+
+
+Laurikari -> problem name: ac_8192_131072_565_lc
+
+Nodes: 8192    Arcs: 131072
+Number of scans: 3255032
+Sum of distances: -10468517619
+
+Running time of SP computation: 0.63
+
+
+Laurikari -> problem name: ac_8192_131072_567_lc
+
+Nodes: 8192    Arcs: 131072
+Number of scans: 3087037
+Sum of distances: -10020203123
+
+Running time of SP computation: 0.60
+
+
+Laurikari -> problem name: ac_8192_131072_569_lc
+
+Nodes: 8192    Arcs: 131072
+Number of scans: 3443288
+Sum of distances: -9947989615
+
+Running time of SP computation: 0.67
+
+
+Laurikari -> problem name: ac_16384_262144_661_lc
+
+Nodes: 16384    Arcs: 262144
+Number of scans: 10384072
+Sum of distances: -28537596853
+
+Running time of SP computation: 3.03
+
+
+Laurikari -> problem name: ac_16384_262144_663_lc
+
+Nodes: 16384    Arcs: 262144
+Number of scans: 10511578
+Sum of distances: -28464254867
+
+Running time of SP computation: 3.00
+
+
+Laurikari -> problem name: ac_16384_262144_665_lc
+
+Nodes: 16384    Arcs: 262144
+Number of scans: 10186285
+Sum of distances: -28300889601
+
+Running time of SP computation: 2.50
+
+
+Laurikari -> problem name: ac_16384_262144_667_lc
+
+Nodes: 16384    Arcs: 262144
+Number of scans: 10654205
+Sum of distances: -29225407855
+
+Running time of SP computation: 2.88
+
+
+Laurikari -> problem name: ac_16384_262144_669_lc
+
+Nodes: 16384    Arcs: 262144
+Number of scans: 10442742
+Sum of distances: -28406151792
+
+Running time of SP computation: 3.00
+
+
+Laurikari -> problem name: ac_32768_524288_761_lc
+
+Nodes: 32768    Arcs: 524288
+Number of scans: 33288096
+Sum of distances: -82329035120
+
+Running time of SP computation: 13.97
+
+
+Laurikari -> problem name: ac_32768_524288_763_lc
+
+Nodes: 32768    Arcs: 524288
+Number of scans: 34142958
+Sum of distances: -81658271971
+
+Running time of SP computation: 15.07
+
+
+Laurikari -> problem name: ac_32768_524288_765_lc
+
+Nodes: 32768    Arcs: 524288
+Number of scans: 32970884
+Sum of distances: -79099847275
+
+Running time of SP computation: 12.67
+
+
+Laurikari -> problem name: ac_32768_524288_767_lc
+
+Nodes: 32768    Arcs: 524288
+Number of scans: 32958411
+Sum of distances: -81299759275
+
+Running time of SP computation: 14.45
+
+
+Laurikari -> problem name: ac_32768_524288_769_lc
+
+Nodes: 32768    Arcs: 524288
+Number of scans: 33395941
+Sum of distances: -80793751804
+
+Running time of SP computation: 13.00
+
+
+Laurikari -> problem name: ac_65536_1048576_861_lc
+
+Nodes: 65536    Arcs: 1048576
+Number of scans: 110637132
+Sum of distances: -238256105591
+
+Running time of SP computation: 57.50
+
+
+Laurikari -> problem name: ac_65536_1048576_863_lc
+
+Nodes: 65536    Arcs: 1048576
+Number of scans: 105403180
+Sum of distances: -227040970169
+
+Running time of SP computation: 57.42
+
+
+Laurikari -> problem name: ac_65536_1048576_865_lc
+
+Nodes: 65536    Arcs: 1048576
+Number of scans: 108055678
+Sum of distances: -225349712932
+
+Running time of SP computation: 56.58
+
+
+Laurikari -> problem name: ac_65536_1048576_867_lc
+
+Nodes: 65536    Arcs: 1048576
+Number of scans: 109643327
+Sum of distances: -221040047980
+
+Running time of SP computation: 59.60
+
+
+Laurikari -> problem name: ac_65536_1048576_869_lc
+
+Nodes: 65536    Arcs: 1048576
+Number of scans: 107710876
+Sum of distances: -231299060104
+
+Running time of SP computation: 55.42
+
+
+Laurikari -> problem name: ac_131072_2097152_961_lc
+
+Nodes: 131072    Arcs: 2097152
+Number of scans: 369055258
+Sum of distances: -658751422203
+
+Running time of SP computation: 223.15
+
+
+Laurikari -> problem name: ac_131072_2097152_963_lc
+
+Nodes: 131072    Arcs: 2097152
+Number of scans: 355941786
+Sum of distances: -650518421486
+
+Running time of SP computation: 213.47
+
+
+Laurikari -> problem name: ac_131072_2097152_965_lc
+
+Nodes: 131072    Arcs: 2097152
+Number of scans: 356395154
+Sum of distances: -654566097938
+
+Running time of SP computation: 223.35
+
+
+Laurikari -> problem name: ac_131072_2097152_967_lc
+
+Nodes: 131072    Arcs: 2097152
+Number of scans: 360802822
+Sum of distances: -643772117619
+
+Running time of SP computation: 238.58
+
+
+Laurikari -> problem name: ac_131072_2097152_969_lc
+
+Nodes: 131072    Arcs: 2097152
+Number of scans: 343859392
+Sum of distances: -639019008560
+
+Running time of SP computation: 227.32
+

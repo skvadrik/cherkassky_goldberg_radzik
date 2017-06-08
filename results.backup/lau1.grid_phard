@@ -1,0 +1,270 @@
+
+Laurikari -> problem name: gr_256x32_111_cai
+
+Nodes: 8193    Arcs: 63808
+Number of scans: 3306613
+Sum of distances: 1376679660
+
+Running time of SP computation: 1.02
+
+
+Laurikari -> problem name: gr_256x32_113_cai
+
+Nodes: 8193    Arcs: 63808
+Number of scans: 3145835
+Sum of distances: 1332467386
+
+Running time of SP computation: 0.97
+
+
+Laurikari -> problem name: gr_256x32_115_cai
+
+Nodes: 8193    Arcs: 63808
+Number of scans: 3353968
+Sum of distances: 1331467658
+
+Running time of SP computation: 1.03
+
+
+Laurikari -> problem name: gr_256x32_117_cai
+
+Nodes: 8193    Arcs: 63808
+Number of scans: 3078227
+Sum of distances: 1323432343
+
+Running time of SP computation: 0.95
+
+
+Laurikari -> problem name: gr_256x32_119_cai
+
+Nodes: 8193    Arcs: 63808
+Number of scans: 3218374
+Sum of distances: 1343558815
+
+Running time of SP computation: 1.00
+
+
+Laurikari -> problem name: gr_512x32_211_cai
+
+Nodes: 16385    Arcs: 129344
+Number of scans: 13104727
+Sum of distances: 5487753271
+
+Running time of SP computation: 5.52
+
+
+Laurikari -> problem name: gr_512x32_213_cai
+
+Nodes: 16385    Arcs: 129344
+Number of scans: 13095678
+Sum of distances: 5403627386
+
+Running time of SP computation: 5.58
+
+
+Laurikari -> problem name: gr_512x32_215_cai
+
+Nodes: 16385    Arcs: 129344
+Number of scans: 13395508
+Sum of distances: 5382621748
+
+Running time of SP computation: 5.67
+
+
+Laurikari -> problem name: gr_512x32_217_cai
+
+Nodes: 16385    Arcs: 129344
+Number of scans: 13274523
+Sum of distances: 5367839030
+
+Running time of SP computation: 5.63
+
+
+Laurikari -> problem name: gr_512x32_219_cai
+
+Nodes: 16385    Arcs: 129344
+Number of scans: 12850137
+Sum of distances: 5446440056
+
+Running time of SP computation: 5.45
+
+
+Laurikari -> problem name: gr_1024x32_311_cai
+
+Nodes: 32769    Arcs: 260416
+Number of scans: 51068592
+Sum of distances: 21591797411
+
+Running time of SP computation: 26.78
+
+
+Laurikari -> problem name: gr_1024x32_313_cai
+
+Nodes: 32769    Arcs: 260416
+Number of scans: 54342639
+Sum of distances: 21379970211
+
+Running time of SP computation: 28.48
+
+
+Laurikari -> problem name: gr_1024x32_315_cai
+
+Nodes: 32769    Arcs: 260416
+Number of scans: 54020165
+Sum of distances: 21451357539
+
+Running time of SP computation: 28.33
+
+
+Laurikari -> problem name: gr_1024x32_317_cai
+
+Nodes: 32769    Arcs: 260416
+Number of scans: 52059484
+Sum of distances: 21301568350
+
+Running time of SP computation: 27.03
+
+
+Laurikari -> problem name: gr_1024x32_319_cai
+
+Nodes: 32769    Arcs: 260416
+Number of scans: 53218772
+Sum of distances: 21369395258
+
+Running time of SP computation: 27.67
+
+
+Laurikari -> problem name: gr_2048x32_411_cai
+
+Nodes: 65537    Arcs: 522560
+Number of scans: 208526551
+Sum of distances: 86342641370
+
+Running time of SP computation: 120.62
+
+
+Laurikari -> problem name: gr_2048x32_413_cai
+
+Nodes: 65537    Arcs: 522560
+Number of scans: 209029870
+Sum of distances: 85344335856
+
+Running time of SP computation: 121.12
+
+
+Laurikari -> problem name: gr_2048x32_415_cai
+
+Nodes: 65537    Arcs: 522560
+Number of scans: 208898940
+Sum of distances: 85629859017
+
+Running time of SP computation: 120.83
+
+
+Laurikari -> problem name: gr_2048x32_417_cai
+
+Nodes: 65537    Arcs: 522560
+Number of scans: 204610448
+Sum of distances: 85449254429
+
+Running time of SP computation: 120.50
+
+
+Laurikari -> problem name: gr_2048x32_419_cai
+
+Nodes: 65537    Arcs: 522560
+Number of scans: 209023754
+Sum of distances: 86480084125
+
+Running time of SP computation: 121.32
+
+
+Laurikari -> problem name: gr_4096x32_511_cai
+
+Nodes: 131073    Arcs: 1046848
+Number of scans: 829941207
+Sum of distances: 343445483585
+
+Running time of SP computation: 406.32
+
+
+Laurikari -> problem name: gr_4096x32_513_cai
+
+Nodes: 131073    Arcs: 1046848
+Number of scans: 837816100
+Sum of distances: 343886624294
+
+Running time of SP computation: 400.10
+
+
+Laurikari -> problem name: gr_4096x32_515_cai
+
+Nodes: 131073    Arcs: 1046848
+Number of scans: 838242224
+Sum of distances: 344830164212
+
+Running time of SP computation: 397.87
+
+
+Laurikari -> problem name: gr_4096x32_517_cai
+
+Nodes: 131073    Arcs: 1046848
+Number of scans: 846996974
+Sum of distances: 341840061978
+
+Running time of SP computation: 403.05
+
+
+Laurikari -> problem name: gr_4096x32_519_cai
+
+Nodes: 131073    Arcs: 1046848
+Number of scans: 839560293
+Sum of distances: 343832186752
+
+Running time of SP computation: 399.82
+
+
+Laurikari -> problem name: gr_8192x32_611_cai
+
+Nodes: 262145    Arcs: 2095424
+Number of scans: 3373123030
+Sum of distances: 1376752547637
+
+Running time of SP computation: 1639.58
+
+
+Laurikari -> problem name: gr_8192x32_613_cai
+
+Nodes: 262145    Arcs: 2095424
+Number of scans: 3334599928
+Sum of distances: 1376837974935
+
+Running time of SP computation: 1618.85
+
+
+Laurikari -> problem name: gr_8192x32_615_cai
+
+Nodes: 262145    Arcs: 2095424
+Number of scans: 3356002469
+Sum of distances: 1380980269213
+
+Running time of SP computation: 1631.98
+
+
+Laurikari -> problem name: gr_8192x32_617_cai
+
+Nodes: 262145    Arcs: 2095424
+Number of scans: 3365078345
+Sum of distances: 1376545951973
+
+Running time of SP computation: 1634.68
+
+
+Laurikari -> problem name: gr_8192x32_619_cai
+
+Nodes: 262145    Arcs: 2095424
+Number of scans: 3353357350
+Sum of distances: 1381230423906
+
+Running time of SP computation: 1627.03
+

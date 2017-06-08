@@ -1,0 +1,315 @@
+
+Laurikari -> problem name: gr_16x512_281_c
+
+Nodes: 8193    Arcs: 24576
+Number of scans: 12140
+Sum of distances: 296943344
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x512_283_c
+
+Nodes: 8193    Arcs: 24576
+Number of scans: 11980
+Sum of distances: 293609089
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x512_285_c
+
+Nodes: 8193    Arcs: 24576
+Number of scans: 12620
+Sum of distances: 293168998
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x512_287_c
+
+Nodes: 8193    Arcs: 24576
+Number of scans: 12420
+Sum of distances: 290434926
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x512_289_c
+
+Nodes: 8193    Arcs: 24576
+Number of scans: 12218
+Sum of distances: 292764849
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x1024_381_c
+
+Nodes: 16385    Arcs: 49152
+Number of scans: 25114
+Sum of distances: 591179002
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x1024_383_c
+
+Nodes: 16385    Arcs: 49152
+Number of scans: 24301
+Sum of distances: 587901142
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x1024_385_c
+
+Nodes: 16385    Arcs: 49152
+Number of scans: 24689
+Sum of distances: 580293314
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x1024_387_c
+
+Nodes: 16385    Arcs: 49152
+Number of scans: 24618
+Sum of distances: 591986530
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x1024_389_c
+
+Nodes: 16385    Arcs: 49152
+Number of scans: 25134
+Sum of distances: 585310379
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x2048_481_c
+
+Nodes: 32769    Arcs: 98304
+Number of scans: 48556
+Sum of distances: 1175158166
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x2048_483_c
+
+Nodes: 32769    Arcs: 98304
+Number of scans: 49410
+Sum of distances: 1178619207
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x2048_485_c
+
+Nodes: 32769    Arcs: 98304
+Number of scans: 49565
+Sum of distances: 1178558453
+
+Running time of SP computation: 0.00
+
+
+Laurikari -> problem name: gr_16x2048_487_c
+
+Nodes: 32769    Arcs: 98304
+Number of scans: 49371
+Sum of distances: 1172670416
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x2048_489_c
+
+Nodes: 32769    Arcs: 98304
+Number of scans: 48726
+Sum of distances: 1182054352
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x4096_581_c
+
+Nodes: 65537    Arcs: 196608
+Number of scans: 99022
+Sum of distances: 2343245234
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x4096_583_c
+
+Nodes: 65537    Arcs: 196608
+Number of scans: 99301
+Sum of distances: 2365097687
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x4096_585_c
+
+Nodes: 65537    Arcs: 196608
+Number of scans: 97420
+Sum of distances: 2372083792
+
+Running time of SP computation: 0.03
+
+
+Laurikari -> problem name: gr_16x4096_587_c
+
+Nodes: 65537    Arcs: 196608
+Number of scans: 98447
+Sum of distances: 2355214694
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x4096_589_c
+
+Nodes: 65537    Arcs: 196608
+Number of scans: 98614
+Sum of distances: 2368496889
+
+Running time of SP computation: 0.02
+
+
+Laurikari -> problem name: gr_16x8192_681_c
+
+Nodes: 131073    Arcs: 393216
+Number of scans: 196779
+Sum of distances: 4687471831
+
+Running time of SP computation: 0.07
+
+
+Laurikari -> problem name: gr_16x8192_683_c
+
+Nodes: 131073    Arcs: 393216
+Number of scans: 197753
+Sum of distances: 4703127106
+
+Running time of SP computation: 0.05
+
+
+Laurikari -> problem name: gr_16x8192_685_c
+
+Nodes: 131073    Arcs: 393216
+Number of scans: 196604
+Sum of distances: 4730414418
+
+Running time of SP computation: 0.07
+
+
+Laurikari -> problem name: gr_16x8192_687_c
+
+Nodes: 131073    Arcs: 393216
+Number of scans: 197900
+Sum of distances: 4709946079
+
+Running time of SP computation: 0.07
+
+
+Laurikari -> problem name: gr_16x8192_689_c
+
+Nodes: 131073    Arcs: 393216
+Number of scans: 195893
+Sum of distances: 4721461839
+
+Running time of SP computation: 0.07
+
+
+Laurikari -> problem name: gr_16x16384_781_c
+
+Nodes: 262145    Arcs: 786432
+Number of scans: 400906
+Sum of distances: 9235439057
+
+Running time of SP computation: 0.22
+
+
+Laurikari -> problem name: gr_16x16384_783_c
+
+Nodes: 262145    Arcs: 786432
+Number of scans: 399980
+Sum of distances: 9218549983
+
+Running time of SP computation: 0.15
+
+
+Laurikari -> problem name: gr_16x16384_785_c
+
+Nodes: 262145    Arcs: 786432
+Number of scans: 398824
+Sum of distances: 9253074933
+
+Running time of SP computation: 0.15
+
+
+Laurikari -> problem name: gr_16x16384_787_c
+
+Nodes: 262145    Arcs: 786432
+Number of scans: 402299
+Sum of distances: 9234105716
+
+Running time of SP computation: 0.13
+
+
+Laurikari -> problem name: gr_16x16384_789_c
+
+Nodes: 262145    Arcs: 786432
+Number of scans: 399519
+Sum of distances: 9220358968
+
+Running time of SP computation: 0.22
+
+
+Laurikari -> problem name: gr_16x32768_181_c
+
+Nodes: 524289    Arcs: 1572864
+Number of scans: 799944
+Sum of distances: 18508741555
+
+Running time of SP computation: 0.33
+
+
+Laurikari -> problem name: gr_16x32768_183_c
+
+Nodes: 524289    Arcs: 1572864
+Number of scans: 801675
+Sum of distances: 18447822653
+
+Running time of SP computation: 0.32
+
+
+Laurikari -> problem name: gr_16x32768_185_c
+
+Nodes: 524289    Arcs: 1572864
+Number of scans: 806677
+Sum of distances: 18498447200
+
+Running time of SP computation: 0.35
+
+
+Laurikari -> problem name: gr_16x32768_187_c
+
+Nodes: 524289    Arcs: 1572864
+Number of scans: 804043
+Sum of distances: 18499642681
+
+Running time of SP computation: 0.40
+
+
+Laurikari -> problem name: gr_16x32768_189_c
+
+Nodes: 524289    Arcs: 1572864
+Number of scans: 803080
+Sum of distances: 18415315589
+
+Running time of SP computation: 0.33
+
