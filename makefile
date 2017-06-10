@@ -3,7 +3,7 @@
 ######################################
 
 CCOMP = cc
-CFLAGS = -O4
+CFLAGS = -O4 -g
 
 all: progs gens
 
@@ -75,11 +75,11 @@ bin/stack: src/stack.c src/stack_run.c src/types_bf.h src/parser_dh.c src/timer.
 bin/thresh: src/thresh.c src/thresh_run.c src/types_bf.h src/parser_dh.c src/timer.c
 	$(CCOMP) $(CFLAGS) -o bin/thresh src/thresh_run.c
 
-bin/lau: src/lau.c src/lau_run.c src/types_lau.h src/lau_deque.h src/parser_dh.c src/timer.c src/lau_indegree.c
+bin/lau: src/lau.c src/lau_run.c src/types_lau.h src/lau_deque.h src/parser_dh.c src/timer.c src/lau_indegree.c src/lau_stack.h
 	$(CCOMP) $(CFLAGS) -o bin/lau src/lau_run.c src/lau_indegree.c
 
-bin/lau1: src/lau1.c src/lau1_run.c src/types_lau.h src/parser_dh.c src/timer.c src/lau_indegree.c
+bin/lau1: src/lau1.c src/lau1_run.c src/types_lau.h src/parser_dh.c src/timer.c src/lau_indegree.c src/lau_stack.h
 	$(CCOMP) $(CFLAGS) -o bin/lau1 src/lau1_run.c src/lau_indegree.c
 
-bin/gor1a: src/gor1a.c src/gor1a_run.c src/types_gor.h src/parser_dh.c src/timer.c
+bin/gor1a: src/gor1a.c src/gor1a_run.c src/types_gor.h src/parser_dh.c src/timer.c src/lau_stack.h
 	$(CCOMP) $(CFLAGS) -o bin/gor1a src/gor1a_run.c

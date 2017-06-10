@@ -1,38 +1,7 @@
 #include <stdlib.h>
 
 #include "types_lau.h"
-
-typedef struct str_stack
-{
-    long top;
-    node **arr;
-} stack;
-
-static void stack_alloc(stack *s, long n)
-{
-    s->arr = (node**)malloc(n * sizeof(node*));
-    s->top = 0;
-}
-
-static void stack_free(stack *s)
-{
-    free(s->arr);
-}
-
-static int stack_empty(const stack *s)
-{
-    return s->top == 0;
-}
-
-static node *stack_pop(stack *s)
-{
-    return s->arr[(s->top)--];
-}
-
-static void stack_push(stack *s, node *n)
-{
-    s->arr[++(s->top)] = n;
-}
+#include "lau_stack.h"
 
 void lau_indegree(node *first, long count, node *source)
 {
@@ -44,7 +13,7 @@ void lau_indegree(node *first, long count, node *source)
     }
 
     stack stk;
-    stack_alloc(&stk, count);
+    stack_alloc(&stk);
     stack_push(&stk, source);
 
     while (!stack_empty(&stk)) {

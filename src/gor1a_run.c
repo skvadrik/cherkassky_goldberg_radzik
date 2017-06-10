@@ -29,6 +29,8 @@ long n_impr;
 
 /* function for constructing shortest path tree */
 
+#include "lau_stack.h"
+
 #include "gor1a.c"
 
 
