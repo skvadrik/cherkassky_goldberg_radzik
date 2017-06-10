@@ -2,7 +2,7 @@
 New topological sort -> problem name: gr_64x64_171_c
 
 Nodes: 4097    Arcs: 12288  cc: 0
-Number of scans: 20852
+Number of scans: 21238
 Sum of distances: 528616661
 
 Running time of SP computation: 0.00
@@ -11,7 +11,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_64x64_173_c
 
 Nodes: 4097    Arcs: 12288  cc: 0
-Number of scans: 21054
+Number of scans: 20771
 Sum of distances: 536512911
 
 Running time of SP computation: 0.00
@@ -20,7 +20,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_64x64_175_c
 
 Nodes: 4097    Arcs: 12288  cc: 0
-Number of scans: 21092
+Number of scans: 23618
 Sum of distances: 531543531
 
 Running time of SP computation: 0.00
@@ -29,7 +29,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_64x64_177_c
 
 Nodes: 4097    Arcs: 12288  cc: 0
-Number of scans: 21610
+Number of scans: 20311
 Sum of distances: 551680441
 
 Running time of SP computation: 0.00
@@ -38,7 +38,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_64x64_179_c
 
 Nodes: 4097    Arcs: 12288  cc: 0
-Number of scans: 20080
+Number of scans: 19614
 Sum of distances: 543660150
 
 Running time of SP computation: 0.00
@@ -47,7 +47,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_128x128_271_c
 
 Nodes: 16385    Arcs: 49152  cc: 0
-Number of scans: 90086
+Number of scans: 97389
 Sum of distances: 4279800624
 
 Running time of SP computation: 0.00
@@ -56,7 +56,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_128x128_273_c
 
 Nodes: 16385    Arcs: 49152  cc: 0
-Number of scans: 91136
+Number of scans: 97549
 Sum of distances: 4221191481
 
 Running time of SP computation: 0.00
@@ -65,7 +65,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_128x128_275_c
 
 Nodes: 16385    Arcs: 49152  cc: 0
-Number of scans: 88390
+Number of scans: 106715
 Sum of distances: 4215478762
 
 Running time of SP computation: 0.00
@@ -74,7 +74,7 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_128x128_277_c
 
 Nodes: 16385    Arcs: 49152  cc: 0
-Number of scans: 86498
+Number of scans: 102064
 Sum of distances: 4241497794
 
 Running time of SP computation: 0.00
@@ -83,25 +83,25 @@ Running time of SP computation: 0.00
 New topological sort -> problem name: gr_128x128_279_c
 
 Nodes: 16385    Arcs: 49152  cc: 0
-Number of scans: 95462
+Number of scans: 95389
 Sum of distances: 4259091119
 
-Running time of SP computation: 0.00
+Running time of SP computation: 0.02
 
 
 New topological sort -> problem name: gr_256x256_371_c
 
 Nodes: 65537    Arcs: 196608  cc: 0
-Number of scans: 488072
+Number of scans: 509665
 Sum of distances: 32972097625
 
-Running time of SP computation: 0.05
+Running time of SP computation: 0.07
 
 
 New topological sort -> problem name: gr_256x256_373_c
 
 Nodes: 65537    Arcs: 196608  cc: 0
-Number of scans: 511160
+Number of scans: 493120
 Sum of distances: 33459426097
 
 Running time of SP computation: 0.07
@@ -110,7 +110,7 @@ Running time of SP computation: 0.07
 New topological sort -> problem name: gr_256x256_375_c
 
 Nodes: 65537    Arcs: 196608  cc: 0
-Number of scans: 507780
+Number of scans: 502889
 Sum of distances: 33744166089
 
 Running time of SP computation: 0.05
@@ -119,16 +119,16 @@ Running time of SP computation: 0.05
 New topological sort -> problem name: gr_256x256_377_c
 
 Nodes: 65537    Arcs: 196608  cc: 0
-Number of scans: 517968
+Number of scans: 513738
 Sum of distances: 33363633305
 
-Running time of SP computation: 0.07
+Running time of SP computation: 0.05
 
 
 New topological sort -> problem name: gr_256x256_379_c
 
 Nodes: 65537    Arcs: 196608  cc: 0
-Number of scans: 479864
+Number of scans: 467016
 Sum of distances: 33286441087
 
 Running time of SP computation: 0.05
@@ -137,34 +137,34 @@ Running time of SP computation: 0.05
 New topological sort -> problem name: gr_512x512_471_c
 
 Nodes: 262145    Arcs: 786432  cc: 0
-Number of scans: 2222194
+Number of scans: 2495645
 Sum of distances: 262509300865
 
-Running time of SP computation: 0.30
+Running time of SP computation: 0.35
 
 
 New topological sort -> problem name: gr_512x512_473_c
 
 Nodes: 262145    Arcs: 786432  cc: 0
-Number of scans: 2160084
+Number of scans: 2367483
 Sum of distances: 261291042232
 
-Running time of SP computation: 0.30
+Running time of SP computation: 0.32
 
 
 New topological sort -> problem name: gr_512x512_475_c
 
 Nodes: 262145    Arcs: 786432  cc: 0
-Number of scans: 2089608
+Number of scans: 2370894
 Sum of distances: 263152974509
 
-Running time of SP computation: 0.28
+Running time of SP computation: 0.32
 
 
 New topological sort -> problem name: gr_512x512_477_c
 
 Nodes: 262145    Arcs: 786432  cc: 0
-Number of scans: 2277076
+Number of scans: 2334591
 Sum of distances: 262479244624
 
 Running time of SP computation: 0.32
@@ -173,34 +173,34 @@ Running time of SP computation: 0.32
 New topological sort -> problem name: gr_512x512_479_c
 
 Nodes: 262145    Arcs: 786432  cc: 0
-Number of scans: 2112488
+Number of scans: 2343273
 Sum of distances: 263468124804
 
-Running time of SP computation: 0.30
+Running time of SP computation: 0.32
 
 
 New topological sort -> problem name: gr_1024x1024_571_c
 
 Nodes: 1048577    Arcs: 3145728  cc: 0
-Number of scans: 11611354
+Number of scans: 11850105
 Sum of distances: 2099537539286
 
-Running time of SP computation: 1.83
+Running time of SP computation: 1.87
 
 
 New topological sort -> problem name: gr_1024x1024_573_c
 
 Nodes: 1048577    Arcs: 3145728  cc: 0
-Number of scans: 12321918
+Number of scans: 12085910
 Sum of distances: 2090951911736
 
-Running time of SP computation: 1.98
+Running time of SP computation: 1.92
 
 
 New topological sort -> problem name: gr_1024x1024_575_c
 
 Nodes: 1048577    Arcs: 3145728  cc: 0
-Number of scans: 11964862
+Number of scans: 12020211
 Sum of distances: 2089921834495
 
 Running time of SP computation: 1.92
@@ -209,17 +209,17 @@ Running time of SP computation: 1.92
 New topological sort -> problem name: gr_1024x1024_577_c
 
 Nodes: 1048577    Arcs: 3145728  cc: 0
-Number of scans: 12004810
+Number of scans: 12256866
 Sum of distances: 2092839876452
 
-Running time of SP computation: 1.92
+Running time of SP computation: 1.98
 
 
 New topological sort -> problem name: gr_1024x1024_579_c
 
 Nodes: 1048577    Arcs: 3145728  cc: 0
-Number of scans: 12035202
+Number of scans: 12033457
 Sum of distances: 2085904470851
 
-Running time of SP computation: 1.98
+Running time of SP computation: 1.90
 

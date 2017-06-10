@@ -2,62 +2,197 @@
 New topological sort -> problem name: rd_131072_524288_961_c
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 1940338
+Number of scans: 2412543
 Sum of distances: 58778073
 
-Running time of SP computation: 0.52
+Running time of SP computation: 0.58
 
 
 New topological sort -> problem name: rd_131072_524288_963_c
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2268462
+Number of scans: 2666243
 Sum of distances: 59031006
 
-Running time of SP computation: 0.58
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_965_c
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2254234
+Number of scans: 2541119
 Sum of distances: 54913132
 
-Running time of SP computation: 0.60
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_967_c
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2061958
+Number of scans: 2605337
 Sum of distances: 61545397
 
-Running time of SP computation: 0.55
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_969_c
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2210614
+Number of scans: 2682592
 Sum of distances: 66920392
 
-Running time of SP computation: 0.58
+Running time of SP computation: 0.63
 
 
 New topological sort -> problem name: rd_131072_524288_961_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 1940338
+Number of scans: 2412543
 Sum of distances: 40459439
 
-Running time of SP computation: 0.53
+Running time of SP computation: 0.58
 
 
 New topological sort -> problem name: rd_131072_524288_963_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2268462
+Number of scans: 2666243
 Sum of distances: 114420816
+
+Running time of SP computation: 0.63
+
+
+New topological sort -> problem name: rd_131072_524288_965_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2541119
+Sum of distances: 52969199
+
+Running time of SP computation: 0.62
+
+
+New topological sort -> problem name: rd_131072_524288_967_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2605337
+Sum of distances: 2277821
+
+Running time of SP computation: 0.63
+
+
+New topological sort -> problem name: rd_131072_524288_969_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2682592
+Sum of distances: 81490065
+
+Running time of SP computation: 0.62
+
+
+New topological sort -> problem name: rd_131072_524288_961_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2412543
+Sum of distances: -32814892
+
+Running time of SP computation: 0.58
+
+
+New topological sort -> problem name: rd_131072_524288_963_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2666243
+Sum of distances: 335979396
+
+Running time of SP computation: 0.63
+
+
+New topological sort -> problem name: rd_131072_524288_965_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2541119
+Sum of distances: 45062325
+
+Running time of SP computation: 0.60
+
+
+New topological sort -> problem name: rd_131072_524288_967_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2605337
+Sum of distances: -234399699
+
+Running time of SP computation: 0.62
+
+
+New topological sort -> problem name: rd_131072_524288_969_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2682592
+Sum of distances: 139507082
+
+Running time of SP computation: 0.63
+
+
+New topological sort -> problem name: rd_131072_524288_961_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2412543
+Sum of distances: -124407941
+
+Running time of SP computation: 0.57
+
+
+New topological sort -> problem name: rd_131072_524288_963_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2666243
+Sum of distances: 612928242
+
+Running time of SP computation: 0.63
+
+
+New topological sort -> problem name: rd_131072_524288_965_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2541119
+Sum of distances: 35211801
+
+Running time of SP computation: 0.62
+
+
+New topological sort -> problem name: rd_131072_524288_967_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2605337
+Sum of distances: -530344636
+
+Running time of SP computation: 0.62
+
+
+New topological sort -> problem name: rd_131072_524288_969_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2682592
+Sum of distances: 212093615
+
+Running time of SP computation: 0.63
+
+
+New topological sort -> problem name: rd_131072_524288_961_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2412543
+Sum of distances: -1772820650
+
+Running time of SP computation: 0.57
+
+
+New topological sort -> problem name: rd_131072_524288_963_cp
+
+Nodes: 131072    Arcs: 524288  cc: 0
+Number of scans: 2666243
+Sum of distances: 5596824417
 
 Running time of SP computation: 0.62
 
@@ -65,206 +200,71 @@ Running time of SP computation: 0.62
 New topological sort -> problem name: rd_131072_524288_965_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2254234
-Sum of distances: 52969199
-
-Running time of SP computation: 0.60
-
-
-New topological sort -> problem name: rd_131072_524288_967_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2061958
-Sum of distances: 2277821
-
-Running time of SP computation: 0.53
-
-
-New topological sort -> problem name: rd_131072_524288_969_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2210614
-Sum of distances: 81490065
-
-Running time of SP computation: 0.57
-
-
-New topological sort -> problem name: rd_131072_524288_961_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 1940338
-Sum of distances: -32814892
-
-Running time of SP computation: 0.50
-
-
-New topological sort -> problem name: rd_131072_524288_963_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2268462
-Sum of distances: 335979396
-
-Running time of SP computation: 0.57
-
-
-New topological sort -> problem name: rd_131072_524288_965_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2254234
-Sum of distances: 45062325
-
-Running time of SP computation: 0.58
-
-
-New topological sort -> problem name: rd_131072_524288_967_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2061958
-Sum of distances: -234399699
-
-Running time of SP computation: 0.55
-
-
-New topological sort -> problem name: rd_131072_524288_969_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2210614
-Sum of distances: 139507082
-
-Running time of SP computation: 0.57
-
-
-New topological sort -> problem name: rd_131072_524288_961_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 1940338
-Sum of distances: -124407941
-
-Running time of SP computation: 0.53
-
-
-New topological sort -> problem name: rd_131072_524288_963_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2268462
-Sum of distances: 612928242
-
-Running time of SP computation: 0.58
-
-
-New topological sort -> problem name: rd_131072_524288_965_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2254234
-Sum of distances: 35211801
-
-Running time of SP computation: 0.58
-
-
-New topological sort -> problem name: rd_131072_524288_967_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2061958
-Sum of distances: -530344636
-
-Running time of SP computation: 0.53
-
-
-New topological sort -> problem name: rd_131072_524288_969_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2210614
-Sum of distances: 212093615
-
-Running time of SP computation: 0.57
-
-
-New topological sort -> problem name: rd_131072_524288_961_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 1940338
-Sum of distances: -1772820650
-
-Running time of SP computation: 0.52
-
-
-New topological sort -> problem name: rd_131072_524288_963_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2268462
-Sum of distances: 5596824417
-
-Running time of SP computation: 0.58
-
-
-New topological sort -> problem name: rd_131072_524288_965_cp
-
-Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2254234
+Number of scans: 2541119
 Sum of distances: -142101048
 
-Running time of SP computation: 0.58
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_967_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2061958
+Number of scans: 2605337
 Sum of distances: -5856176510
 
-Running time of SP computation: 0.53
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_969_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2210614
+Number of scans: 2682592
 Sum of distances: 1518390866
 
-Running time of SP computation: 0.57
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_961_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 1940338
+Number of scans: 2412543
 Sum of distances: -18257602809
 
-Running time of SP computation: 0.50
+Running time of SP computation: 0.57
 
 
 New topological sort -> problem name: rd_131072_524288_963_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2268462
+Number of scans: 2666243
 Sum of distances: 55436835235
 
-Running time of SP computation: 0.58
+Running time of SP computation: 0.63
 
 
 New topological sort -> problem name: rd_131072_524288_965_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2254234
+Number of scans: 2541119
 Sum of distances: -1915228699
 
-Running time of SP computation: 0.58
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_967_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2061958
+Number of scans: 2605337
 Sum of distances: -59115542219
 
-Running time of SP computation: 0.55
+Running time of SP computation: 0.62
 
 
 New topological sort -> problem name: rd_131072_524288_969_cp
 
 Nodes: 131072    Arcs: 524288  cc: 0
-Number of scans: 2210614
+Number of scans: 2682592
 Sum of distances: 14582018013
 
-Running time of SP computation: 0.57
+Running time of SP computation: 0.63
 

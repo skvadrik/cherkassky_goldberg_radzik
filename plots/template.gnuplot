@@ -13,7 +13,7 @@ set output 'plot_PROBLEM.png'
 set xlabel "Number of nodes"
 set ylabel "Number of scans"
 unset logscale
-set yrange [*<-1e7:*]
+set yrange [*<-1:*]
 plot "data/gor1a.PROBLEM" using 1:2 lc rgb '#000000' lt 1 with lines smooth unique title "GOR1", \
      "data/lau.PROBLEM"   using 1:2 lc rgb '#000000' lt 2 with lines smooth unique title "LAU", \
      "data/lau1.PROBLEM"  using 1:2 lc rgb '#000000' lt 3 with lines smooth unique title "LAU1"
